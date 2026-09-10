@@ -29,6 +29,7 @@ payBtn.addEventListener("click", function () {
     message.innerHTML = "Processing payment..";
     setTimeout(function () {
         payBtn.innerHTML = "Pay Now";
+        // payBtn.innerHTML.add("hidden");
         message.innerHTML = "Payment successfully completed..";
     }, 3000);
 });

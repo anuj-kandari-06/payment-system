@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(254, 137, 54);
+}
+
 .shoes {
     max-width: 200px;
     margin-left: 33%;
@@ -32,4 +36,13 @@
 
 .img-left {
     margin-left: 43%;
+}
+
+#addBtn,
+#buyBtn,
+#payBtn {
+    background-color: rgb(249, 213, 81);
+    border-color: rgb(249, 213, 81) ;
+    border-radius: 25px;
+
 }
